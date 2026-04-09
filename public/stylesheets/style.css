@@ -1,8 +1,66 @@
+/* overall page */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cddff5;
 }
 
-a {
-  color: #00B7FF;
+/* tasks */
+li {
+  list-style: none;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* spacing between forms */
+form {
+  margin-top: 6px;
+}
+
+/* buttons */
+button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+/* delete button */
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+/* status */
+.completed {
+  color: #6c9f6c;
+  font-weight: bold;
+}
+
+.not-completed {
+  color: gray;
+  font-weight: bold;
+}
+
+/* inputs */
+input[type="text"] {
+  padding: 6px;
+  margin-right: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
