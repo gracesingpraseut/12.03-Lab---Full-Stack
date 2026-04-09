@@ -9,19 +9,27 @@
 
 ## Install the Database
 To set up the database, run the install script (only once per environment):
+```bash
 ./setup_scripts/install_db.sh
+```
 
 ## Create the Database Tables
 Run the following command to create the database and tables:
+```bash
 sudo mysql -u root -p < ./setup_scripts/create_demo_table.sql
+```
 
 ## Install Dependencies
 Install required packages:
+```bash
 npm install
+```
 
 ## Run the Application
 Start the server:
+```bash
 npm start
+```
 
 ## Access the Application
 On Codespaces, you can access the application by forwarding port 3000. Open the forwarded port in your browser to view the application.
