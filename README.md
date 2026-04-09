@@ -1,11 +1,28 @@
-# CS208 Full Stack Final Project
+# CS208 Full Stack Project - TODO Application
+ - Name: Grace Singpraseuth
+ - Github: [https://github.com/gracesingpraseut](https://github.com/gracesingpraseut)
+ - Term: Spring 2026
 
-## Documentation
+ ## Project Description
 
-- Running the example project is documented [here](docs/example_project.md)
-- An example README is provided [here](docs/README_example.md)
+ This is a full-stack web application built using Node.js and MySQL. The application allows users to manage a list of tasks. Users can add tasks, edit them, delete them, and mark them as completed or not completed.
 
-Students must **replace** this README with a README that is specific to your
-project. **IMPORTANT**: If you do not complete the README, your project will not
-be graded, and you will receive a zero. The TA will not guess how to set up,
-configure, and run your project.
+## Install the Database
+To set up the database, run the install script (only once per environment):
+./setup_scripts/install_db.sh
+
+## Create the Database Tables
+Run the following command to create the database and tables:
+sudo mysql -u root -p < ./setup_scripts/create_demo_table.sql
+
+## Install Dependencies
+Install required packages:
+npm install
+
+## Run the Application
+Start the server:
+npm start
+
+## Access the Application
+On Codespaces, you can access the application by forwarding port 3000. Open the forwarded port in your browser to view the application.
+
