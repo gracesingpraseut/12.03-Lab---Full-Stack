@@ -8,7 +8,7 @@
  This is a full-stack web application built using Node.js and MySQL. The application allows users to manage a list of tasks. Users can add tasks, edit them, delete them, and mark them as completed or not completed.
 
 ## Install the Database
-To set up the database, run the install script (only once per environment):
+To set up the database, run the install script:
 ```bash
 ./setup_scripts/install_db.sh
 ```
